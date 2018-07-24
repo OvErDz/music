@@ -76,7 +76,7 @@ client.on('message', async msg => { // eslint-disable-line
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-					.setFooter("CODES")
+					.setFooter(`Fox Bot`, 'https://cdn.discordapp.com/attachments/470892033612185610/471340486808961024/download.jpg')
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
 					// eslint-disable-next-line max-depth
