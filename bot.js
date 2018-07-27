@@ -1,4 +1,4 @@
-https://cdn.discordapp.com/attachments/456656241775738911/472355947981963285/images.jpgconst Discord = require("discord.js");
+const Discord = require("discord.js");
 const ytdl = require("ytdl-core");
 const { Client, Util } = require('discord.js');
 const getYoutubeID = require('get-youtube-id');
